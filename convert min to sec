@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int convert(int m) {
+    int s;
+    s = m * 60;
+    cout << s;
+}
+
+int main()
+{
+    int min, sec;
+    cout << "enter the minutes for convert to seconds:" << endl;
+    cin >> min;
+    cout << "minutes in second:"<<convert(min)<<endl;
+    return 0;
+}
+
